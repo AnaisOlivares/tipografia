@@ -1,0 +1,41 @@
+section{
+   width: 17%;
+   padding: 10px;
+   background-color: #d9d0d0;
+   height: 220px;
+   margin-left: 5px;
+   float: left;
+   display: inline-block;
+}
+section:hover{
+   background-color: #cc28be;
+   color: white;
+   transition: background-color 1.5s ease;
+}
+
+section div.content-icon{
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   margin: 20px 0;
+}
+section span.icon{
+   font-size: 30px;
+}
+section h3{
+   font-size: 16px;
+   font-weight: 800;
+}
+
+section div.content-text{
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+}
+
+section p.minimum-size{
+   font-size: 10px;
+   margin-bottom: 5px;
+}
+section p.text{
+   font-size: 12px;
+   margin-top: 0;
+}
